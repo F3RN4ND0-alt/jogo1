@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+     margin: auto;
+  }
+  body{
+      background-color: black;
+      padding: 2%;
+      position: relative;
+      width: 100%;
+      min-height: 100%;
+      display: flex;
+      justify-content: space-between;
+      text-align:center
+}
+p{
+      color:#fff;
+      display:flex;
+      position:absolute;
+      text-align: center;
+      font-size:30px;
+      margin-top:300px;
+      margin-left:31%;
+}

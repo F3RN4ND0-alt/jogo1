@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+   margin: auto;
+}
+body{
+    background-color: black;
+    padding: 2%;
+    position: relative;
+    width: 50%;
+    min-height: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align:center
+}
+p{
+    color:#fff;
+    display:block;
+    position:absolute;
+    text-align: center;
+    font-size:30px;
+    top:200%
+}
+.ponto{
+    display:flex;
+    position:center;
+    max-width:100%;
+    min-width: none; 
+    opacity:1;
+    color:beige;
+    text-align:center;
+    white-space:pre-wrap;
+}
+.ponto input{
+    width: 170%!important;
+    cursor: pointer;
+    background: rgb(134, 3, 3);
+    padding: 1px 100px;
+    color: #fff;
+    font-size: 45px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 2px;
+    text-shadow: 0 1px 1px rgb(0, 0, 0);
+    border-radius: 11px;
+    box-shadow:0 6px rgb(255, 255, 255);
+    border:none;
+    outline:none;
+    transition:0.4s;
+    display:inline-block;
+    margin-left: 0%;
+    opacity:70%;
+    align-items:center;
+    justify-content:center;
+    top: 10em;
+    position:relative;
+}
+input[type="button"]:hover{
+    background:rgba(90, 0, 0, 0.925);
+}
+input[type="button"]:active{
+    box-shadow: 0 5px rgb(8, 5, 5);
+    transform: translateY(4px);
+}

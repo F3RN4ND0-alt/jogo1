@@ -1,0 +1,39 @@
+*{
+     padding: 0;
+     margin: auto;
+}
+  body{
+      background-color: black;
+      position: center;
+      width:100%;
+      min-height: 100%;
+      display:inline-block;
+      text-align:center;
+}
+p{
+    font-size:20px;
+    color:gray;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:30px;
+    position:center;
+}
+h2{
+    font-size:20px;
+    color:gray;
+    position:center;
+    display:flex;
+    width:100px;
+    justify-content: center;
+    align-items:center;
+}
+img{
+    display: inline-block;
+    max-width: 400px;
+    position: relative;
+    transform: scale(1);
+    margin-top:20px;
+    align-items:center;
+
+}
